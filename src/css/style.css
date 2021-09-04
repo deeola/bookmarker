@@ -64,11 +64,11 @@ img {
   display: flex;
   justify-content: space-between;
   width: 82.5%;
+  align-items: center;
 }
 
 .header .hero-container .hero_box .hero-text {
   width: 30%;
-  margin-top: 100px;
 }
 
 .header .hero-container .hero_box .hero-text h2 {
@@ -85,8 +85,36 @@ img {
 }
 
 .header .hero-container .hero_box .hero-text .hero-links {
-  width: 80%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+}
+
+.header .hero-container .hero_box .hero-text .hero-links a {
+  background-color: #5368df;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+.header .hero-container .hero_box .hero-image {
+  position: relative;
+}
+
+.header .hero-container .hero_box .hero-image .hero_illustration {
+  padding-right: 50px;
+}
+
+.header .hero-container .hero_box .hero-image .blue_background {
+  background-color: #5368df;
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  top: 100px;
+  right: 0;
+  z-index: -1;
+  border-radius: 20px 0px 0px 100px;
 }
