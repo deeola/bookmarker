@@ -1,0 +1,82 @@
+@import "config";
+@import "utilities";
+
+.header {
+  font-family: $font-family;
+  padding-top: 20px;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+
+    .logo {
+      width: 150px;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+
+      li {
+        text-decoration: none;
+        list-style: none;
+
+        a {
+          font-weight: 500;
+          text-decoration: none;
+          text-transform: uppercase;
+          cursor: pointer;
+          color: $Very_Dark_Blue;
+        }
+
+        .login {
+          background-color: $Soft_Red;
+          padding: 10px 25px;
+          color: white;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  .hero-container {
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    .hero_box {
+      display: flex;
+      justify-content: space-between;
+      width: 82.5%;
+
+      .hero-text {
+        width: 30%;
+        margin-top: 100px;
+
+        h2 {
+          font-size: 30px;
+        }
+
+        .first_paragraph {
+          margin-top: 20px;
+        }
+
+        p {
+          margin-bottom: 5px;
+          font-size: 13px;
+        }
+
+        .hero-links {
+          width: 80%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
