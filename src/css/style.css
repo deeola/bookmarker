@@ -97,6 +97,7 @@ img {
   padding: 10px 20px;
   font-size: 12px;
   color: whitesmoke;
+  border-radius: 3px;
 }
 
 .header .hero-container .hero_box .hero-image {
